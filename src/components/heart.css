@@ -1,0 +1,18 @@
+div {
+    position: relative;
+    z-index: 1; /* Ensure it’s on top */
+}
+.small-logo {
+    width: 24px; /* Set width for the logo */
+    height: 24px; /* Set height for the logo */
+    margin-left: 10px; /* Space between price and logo */
+    pointer-events: auto; /* Ensure this is set to allow clicks */
+  }
+  @media (max-width: 768px) {
+    .small-logo {
+        width: 16px; /* Set width for the logo */
+        height: 16px; /* Set height for the logo */
+        margin-left: 7px; /* Space between price and logo */
+        pointer-events: auto; /* Ensure this is set to allow clicks */
+      }
+  }
